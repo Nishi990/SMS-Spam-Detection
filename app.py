@@ -3,6 +3,7 @@ nltk.data.path
 nltk.data.path.append('./nltk_data')
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 import streamlit as st
 import pickle
