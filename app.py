@@ -1,6 +1,5 @@
 import nltk
 nltk.data.path
-print(nltk.data.find('tokenizers/punkt/english.pickle'))
 nltk.data.path.append('./nltk_data')
 nltk.download('punkt')
 nltk.download('stopwords')
