@@ -1,6 +1,7 @@
 import nltk
 nltk.data.path
 nltk.data.path.append('./nltk_data')
+print(nltk.data.find('tokenizers/punkt)
 nltk.download('punkt')
 nltk.download('stopwords')
 
